@@ -1,0 +1,28 @@
+@use 'variaveis';
+@use '_header';
+@use '_filmes';
+@use '_sugestoes';
+@use '_novidades';
+
+@font-face {
+    font-family: Avenir;
+    src: url(../../assets/fonts/Avenir-Regular.woff2);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url(../../assets/fonts/Avenir-bold.woff2);
+    font-weight: 700;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Avenir, sans-serif;
+}
+
+body {
+    font-family: Avenir, sans-serif;
+}

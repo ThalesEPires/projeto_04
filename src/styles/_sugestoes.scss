@@ -1,0 +1,48 @@
+@use 'variaveis';
+
+.sugestoes {
+    background-color: #6d6d6d;
+
+    &__title {
+        text-align: center;
+        padding: 16px 0;
+        font-size: 32px;
+        color: #fff;
+    }
+
+    &__subtitle {
+        text-align: center;
+        color: #fff;
+    }
+
+    &__container {
+        padding: 32px 5.6vw;
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        list-style: none;
+        gap: 24px;
+        padding: 12px 24px;
+
+
+        &__item {
+            text-align: center;
+
+            img {
+                max-width: 360px;
+            }
+
+            h3 {
+                padding: 8px;
+            }
+        }
+    }
+}
+
+.section-title {
+    text-align: center;
+    padding: 24px 0 0;
+    font-size: 32px;
+}

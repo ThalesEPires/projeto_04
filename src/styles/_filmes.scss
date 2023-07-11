@@ -1,0 +1,38 @@
+@use 'variaveis';
+
+.filmes {
+    background-color: #ccc;
+
+    &__container {
+        padding: 0 5.6vw;
+        min-height: 50vw;
+    }
+
+    &__list {
+        padding: 24px 32px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+
+        &__item {
+            list-style: none;
+            display: block;
+            padding: 8px;
+            text-align: center;
+
+            img {
+                width: 360px;
+            }
+
+            h3 {
+                text-align: center;
+                padding: 6px;
+                font-size: 24px;
+            }
+
+            p {
+                text-align: center;
+            }
+        }
+    }
+}
